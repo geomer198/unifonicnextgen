@@ -43,7 +43,7 @@ class Configuration(object):
     # All the environments the SDK can run in
     environments = {
         Environment.PRODUCTION: {
-            Server.BASE_URL: "el.cloud.unifonic.com",
+            Server.BASE_URL: "https://el.cloud.unifonic.com",
         },
     }
 
